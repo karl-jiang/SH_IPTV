@@ -28,7 +28,7 @@ echo 正在删除旧文件
 rm -rf dnsmasq.postconf
 #下载新配置文件
 echo 正在下载新文件
-wget -q --no-check-certificate https://raw.githubusercontent.com/ArronYin/4K-IPTV/master/dnsmasq.conf
+wget -q --no-check-certificate  https://raw.githubusercontent.com/karl-jiang/SH_IPTV/master/dnsmasq.conf
 #重命名新配置文件
 mv dnsmasq.conf dnsmasq.postconf
 #设置权限
